@@ -1,0 +1,98 @@
+[character]
+symbol = ""
+use_symbol_for_status = true
+error_symbol = "ﮊ"
+
+[cmd_duration]
+min_time = 500
+show_milliseconds = true
+
+[env_var]
+prefix = " "
+variable = "SHELL"
+default = "unknown shell"
+style = "dimmed white"
+
+[time]
+disabled = false
+format = " %T"
+style = "yellow"
+
+[directory]
+fish_style_pwd_dir_length=1
+
+[memory_usage]
+disabled = false
+show_percentage = false
+show_swap = false
+threshold = 75
+symbol = " "
+separator = "/"
+style = "bold dimmed green"
+
+# Nerd Font Config
+[aws]
+symbol = " "
+
+[battery]
+full_symbol = ""
+charging_symbol = ""
+discharging_symbol = ""
+
+[conda]
+symbol = " "
+
+[docker]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[elm]
+symbol = " "
+
+[git_branch]
+symbol = " "
+
+[golang]
+symbol = " "
+
+[haskell]
+symbol = " "
+
+[hg_branch]
+symbol = " "
+
+[java]
+symbol = " "
+
+[jobs]
+symbol = " "
+
+[julia]
+symbol = " "
+
+#[memory_usage]
+#symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+symbol = " "
+
+[package]
+symbol = " "
+
+[php]
+symbol = " "
+
+[python]
+symbol = " "
+
+[ruby]
+symbol = " "
+
+[rust]
+symbol = " "
+

@@ -1,0 +1,43 @@
+{
+    "editor.tabSize": 4,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "rust-client.disableRustup": true,
+    "window.zoomLevel": 0,
+    "editor.renderWhitespace": "boundary",
+    "spellright.language": [
+        "English (American)",
+        "Italian"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "[markdown]": {
+        "editor.wordWrap": "bounded"
+    },
+    "[latex]": {
+        "editor.wordWrap": "bounded",
+        "editor.tabSize": 2
+    },
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontLigatures": true,
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "C_Cpp.default.includePath": [
+        "/home/luca/fastflow",
+        "/home/luca/actor-framework@lucarin91/build/install/include",
+        "/home/luca/actor-framework/build/install/include",
+        "/home/luca/caf-pp/build/install/include"
+    ],
+    "C_Cpp.default.intelliSenseMode": "gcc-x64",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "todo-tree.tree.showScanModeButton": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+}
