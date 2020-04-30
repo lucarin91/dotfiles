@@ -15,7 +15,6 @@ code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.cpptools
 code --install-extension redhat.java
 code --install-extension ritwickdey.LiveServer
-code --install-extension rust-lang.rust
 code --install-extension scala-lang.scala
 code --install-extension twxs.cmake
 code --install-extension vincaslt.highlight-matching-tag
