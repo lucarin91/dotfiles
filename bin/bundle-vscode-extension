@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+
+OUT=$HOME/bin/install-vscode-extension
+
+echo "Bundle Visual Studio Code extensions..."
+
+echo "#!/bin/sh" > "$OUT"
+code --list-extensions | xargs -L 1 echo code --install-extension >> "$OUT"
+chmod +x $OUT
+
+echo "done, output in '$OUT'"
