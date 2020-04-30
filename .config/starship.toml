@@ -30,6 +30,18 @@ symbol = " "
 separator = "/"
 style = "bold dimmed green"
 
+[[battery.display]]  # between 0% and 10%
+threshold = 10
+style = "bold red"
+
+[[battery.display]]  # between 10% and 30%
+threshold = 30
+style = "bold yellow"
+
+[[battery.display]]  # between 30% and 75%
+threshold = 75
+style = "yellow"
+
 # Nerd Font Config
 [aws]
 symbol = " "
@@ -95,4 +107,3 @@ symbol = " "
 
 [rust]
 symbol = " "
-
