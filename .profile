@@ -11,20 +11,21 @@
 # set editor
 export EDITOR="vim"
 
-# set local binary 
-export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
-
-# rust
-export PATH="$HOME/.cargo/bin:$PATH"
-
-# my scripts
-export PATH="$PATH:$HOME/myscripts"
-
-# snapd
-export PATH="$PATH:/snap/bin"
-
 # Bitwarden client
-source .bw_session
+source "$HOME/.bw_session"
 
 # set rustc cache
 export RUSTC_WRAPPER=sccache
+
+# Set Path
+# set local binary 
+[ -d "$HOME/.local/bin" ] && PATH="$HOME/.local/bin:$PATH"
+[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
+# rust
+[ -d "$HOME/.cargo/bin" ] && PATH="$HOME/.cargo/bin:$PATH"
+# my scripts
+[ -d "$HOME/myscripts" ] && PATH="$PATH:$HOME/myscripts"
+# snapd
+[ -d "/snap/bin" ] && PATH="$PATH:/snap/bin"
+export PATH
+
